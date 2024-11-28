@@ -12,7 +12,7 @@ class Solution {
 		boolean possB = second != 1 && divide(second, arrayA);
 		if (possA && possB) {
 			answer = Math.max(first, second);
-		} else if (possB) {
+		} else if (possB) { 
 			answer = second;
 		} else if (possA) {
 			answer = first;
